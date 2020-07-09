@@ -1,0 +1,5 @@
+/vendor
+.env
+.editorconfig
+composer.lock
+var/doctrine

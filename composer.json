@@ -1,0 +1,31 @@
+{
+    "name": "mmdutra/slim",
+    "authors": [
+        {
+            "name": "Mateus Morais",
+            "role": "Developer"
+        }
+    ],
+    "description": "API with slim framework",
+    "keywords": ["framework", "slim", "api"],
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "slim/slim": "^4.5",
+        "slim/psr7": "^1.1",
+        "php-di/slim-bridge": "^3.0",
+        "doctrine/orm": "^2.7",
+        "vlucas/phpdotenv": "^5.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
