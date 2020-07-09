@@ -22,3 +22,5 @@ $entityManager = getEntityManager($container);
 $container->set('em', $entityManager);
 
 $app = AppFactory::createFromContainer($container);
+
+require_once "routes.php";
