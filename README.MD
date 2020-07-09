@@ -5,7 +5,7 @@ API usando **[Doctrine ORM](https://www.doctrine-project.org/)** dentro do frame
 
 #### Configuração de ambiente
 
-* Rodar os containers utilizando [Docker-compose] (https://docs.docker.com/compose/)
+* Rodar os containers utilizando [Docker-compose](https://docs.docker.com/compose/)
     ```
     docker-compose up -d --build
     ```
